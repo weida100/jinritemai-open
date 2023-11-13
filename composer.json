@@ -1,0 +1,19 @@
+{
+    "name": "weida/jinritemai-open",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Weida\\JinritemaiOpen\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sgenmi",
+            "email": "sgenmi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "weida/jinritemai-core": "dev-main"
+    }
+}
