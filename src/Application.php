@@ -32,13 +32,13 @@ class Application extends AbstractApplication
     }
 
     /**
-     * @param int $uid
+     * @param int| string $shopId
      * @param string $accessToken
      * @return $this
      * @author Weida
      */
-    public function withAccessToken(int $uid,string $accessToken):static {
-        $_at =  $this->getAccessToken($uid,'');
+    public function withAccessToken(int|string $shopId,string $accessToken):static {
+        $_at =  $this->getAccessToken($shopId,'');
         $_at->setToken($accessToken);
         $this->client = new WithAccessTokenClient(
             $this->getHttpClient(),
