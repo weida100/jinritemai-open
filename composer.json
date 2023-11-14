@@ -12,8 +12,7 @@
             "email": "sgenmi@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-        "weida/jinritemai-core": "^v0.0.1.rc1"
+        "weida/jinritemai-core": "^v0.0.1"
     }
 }
